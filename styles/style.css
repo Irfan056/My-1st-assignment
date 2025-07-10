@@ -127,6 +127,27 @@ form button{
      width: 100%;
 }
 
+/* Footer part Design */
+footer{
+    margin-top: 104px;
+    margin-bottom: 104px;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+footer ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+}
 
 /* Shared Style */
 
