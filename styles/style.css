@@ -11,6 +11,11 @@ header{
     background-image: url('../Assets/Hero-bg.png');
 }
 
+/* body Color */
+body{
+     background-color:  rgb(245, 248, 255);
+}
+
 /* Navbar Design */
 nav{
     margin: 0 200px;
@@ -35,11 +40,13 @@ nav li a{
 /* main Design */
 main{
     max-width: 1140px;
+    margin: 0 auto;
+   
 }
 
 /* Banner Design */
 .banner{
-    margin: 152px 267px;
+    width: 100%;
     padding-bottom: 152px;
 }
 .banner-title{
@@ -94,20 +101,47 @@ main{
     justify-content: space-around;
 }
 
-
+/* Touch Part Design */
+.touch{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 92px 150px 104px 150px; */
+    width: 100%;
+}
+.touch-title{
+   gap: 115px;
+    font-size: 97px;
+    font-weight: bold;
+}
+.touch input[type="email"],[type="text"],textarea{
+     height: 32px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+form button{
+     width: 100%;
+}
 
 
 /* Shared Style */
 
 .margin{
-    margin: 116px 159px 116px 141px;
+    margin: 116px 0px;
 }
 .text-size-1{
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 0px;
 }
-
+.text-size-2{
+    font-size: 18px;
+    font-weight: 500;
+}
 .text-color-1{
       color: #252432;
 }
@@ -123,6 +157,9 @@ main{
     color: white;
     border: none;
     border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: darkgreen;
 }
 .text-center{
     text-align: center;
