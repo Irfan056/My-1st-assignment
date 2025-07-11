@@ -126,6 +126,54 @@ main{
 form button{
      width: 100%;
 }
+/* Review Part Design */
+.review-title{
+    margin-top: 137px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.review-subtitle{
+    font-size: 29px;
+    font-weight:600;
+    margin-bottom: 0px;
+}
+.review-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+.rating{
+    border-radius: 15px;
+    background-color: white;
+    padding: 24px;
+}
+
+.checked {
+  color: orange;
+}
+
+.customers{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.customers img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.customers{
+    margin: 0px;
+}
+.name{
+    margin-bottom: 0px;
+}
+.date {
+    margin-top: 0px;
+}
+
 
 /* Footer part Design */
 footer{
